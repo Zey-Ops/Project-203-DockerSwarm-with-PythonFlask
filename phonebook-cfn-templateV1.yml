@@ -208,6 +208,7 @@ Resources:
               APP_REPO_NAME: Zey-Ops/Project-203-DockerSwarm-with-PythonFlask
               GITHUB_REPO: https://github.com/Zey-Ops/Project-203-DockerSwarm-with-PythonFlask.git
               GIT_FILE_URL: https://raw.githubusercontent.com/Zey-Ops/Project-203-DockerSwarm-with-PythonFlask/main/
+              
   DockerManager2:
     Type: "AWS::EC2::Instance"
     DependsOn:
